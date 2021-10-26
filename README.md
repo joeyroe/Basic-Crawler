@@ -1,2 +1,2 @@
 # Basic-Crawler
-Basic web-crawler that crawls given web-pages.
+Basic web-crawler that crawls given web-pages. The program crawls the given web-pages and extracts all of the data on the web-pages. The extracted data is processed, all stop-words (words that are in the stop_text.txt file) and punctuation are removed. The remaining data is processed further by counting the number of occurances of each word on a given url. A dictionary is used to store the words and the word-frequency of the url. An output file (roe_joey.txt) is produced displaying the URLs along with the remaining words along with their frequencies. This was a class assignment for Topics in Data Science CS4364
